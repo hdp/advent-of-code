@@ -1,0 +1,5 @@
+run: solution
+	./$< < input.txt
+
+solution: solution.hs
+	ghc $<
